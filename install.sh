@@ -42,7 +42,7 @@ if [ -n "$rc_file" ]; then
     last_output=$(eval "$last_command")
     retVal=$?
     if [ $retVal -ne 0 ]; then
-        osh_py "input" "$last_command" "output" "$last_output" "return_code" "$retVal"
+        osh_py "$last_command" "$last_output" "$retVal"
     else
         echo "Your last command ran successfully. Please summon me only when something goes wrong."
     fi
