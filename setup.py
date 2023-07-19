@@ -25,7 +25,7 @@ setup(
     version="0.0.1",
     packages=find_packages(),
     install_requires=get_requirements(),
-    description="Your saviour, when command like strikes you with errors!",
+    description="Your saviour, when command line strikes you with errors!",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/harshalbhatia/osh",
